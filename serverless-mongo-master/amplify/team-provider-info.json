@@ -1,0 +1,20 @@
+{
+    "slsequity": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-serverlessequity-slsequity-155216-authRole",
+            "UnauthRoleArn": "arn:aws:iam::711872500260:role/amplify-serverlessequity-slsequity-155216-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::711872500260:role/amplify-serverlessequity-slsequity-155216-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-serverlessequity-slsequity-155216-deployment",
+            "UnauthRoleName": "amplify-serverlessequity-slsequity-155216-unauthRole",
+            "StackName": "amplify-serverlessequity-slsequity-155216",
+            "StackId": "arn:aws:cloudformation:us-east-1:711872500260:stack/amplify-serverlessequity-slsequity-155216/c25f38b0-7f6b-11ea-acce-0a1540e225b5",
+            "AmplifyAppId": "d30o4fhn9jzvit"
+        },
+        "categories": {
+            "auth": {
+                "serverlessequity08df552c": {}
+            }
+        }
+    }
+}

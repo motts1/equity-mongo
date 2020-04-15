@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"serverlessequity08df552c": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}

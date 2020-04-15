@@ -1,5 +1,5 @@
 # NOTE: update this with your service name
-service: equity-serverless-mongo
+service: serverless-mongo-master
 
 # Use the serverless-webpack plugin to transpile ES6
 plugins:
