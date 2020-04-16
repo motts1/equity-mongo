@@ -1,8 +1,11 @@
 import { Schema, model } from 'mongoose';
 const UserSchema = new Schema({
+    firstName: String,
+    lastname: String,
     id: String,
     artistId: String,
-    userName: String,
+    cognitoId: String,
+    // userName: String,
     // artistName: String,
     // title: String,
     // type: String,

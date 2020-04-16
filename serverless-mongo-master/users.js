@@ -6,7 +6,11 @@ module.exports.create = async (event, context, callback) => {
   context.callbackWaitsForEmptyEventLoop = false;
   try {
     await mongoose.connect(process.env.DB);
-    const user = await User.create(JSON.parse(event.body));
+
+    const userFields = JSON.parse(event.body);
+    userFields.cognitoId = event.requestContext.identity.cognitoIdentityId;
+    const user = await User.create(userFields)
+    // const user = await User.create(JSON.parse(event.body));
     await mongoose.connection.close()
     return callback(null, {
       statusCode: 200,
